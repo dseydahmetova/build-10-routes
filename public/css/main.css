@@ -1,0 +1,77 @@
+.container {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    background-color: rgb(225, 206, 238);
+    width: 800px;
+    padding: 20px;
+    border: 3px solid green;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(13, 87, 74);
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+
+span{
+    font-weight: bold;
+    color: rgb(143, 18, 18);
+}
+
+li {
+    margin: 15px;
+}
+
+a {
+    color: rgb(17, 17, 17);
+    text-decoration: none;
+}
+
+.active::after {
+    content: "\25CF";
+    font-size: 40px;
+    color: #20b345;
+}
+
+.notactive::after {
+    content: "\25CF";
+    font-size: 40px;
+    color: #f07777;
+}
+
+.btn-group {
+    text-align: end;
+    margin-bottom: 50px;
+}
+
+.btn {
+    background-color: #cda8f5;
+    margin: 20px;
+    padding: 10px;
+    border: solid 1px green;
+}
+
+.home-btn {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+input, select, textarea {
+    height: 40px;
+    width: 200px;
+}
+
+h4{
+    color: rgb(138, 25, 25);
+    text-align: center;
+}

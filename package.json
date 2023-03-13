@@ -1,0 +1,20 @@
+{
+  "name": "build-10-routes",
+  "version": "1.0.0",
+  "description": "## Instructions Build 10 Routes and a view engine, say anything you want Make at least 2 different views, and use them both in different routes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "jsx-view-engine": "^0.1.0",
+    "react": "^18.2.0",
+    "react-lorem-ipsum": "^1.4.10",
+    "react-router-dom": "^6.9.0"
+  }
+}
